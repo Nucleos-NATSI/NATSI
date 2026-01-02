@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software MS-LTSC</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <button id="scrollTopBtn" title="Subir al inicio">↑</button>
+    
+    <nav>
+        <div class="logo"><h1>MS-LTSC</h1></div>
+        <div class="menu-toggle" id="mobile-menu"><span></span><span></span><span></span></div>
+        <ul class="nav-links" id="nav-list" style="background-color: var(--primary);">
+            <li><a href="#inicio" onclick="closeMenu()">Inicio</a></li>
+            <li><a href="#stats-bar" onclick="closeMenu()">Tablero</a></li>
+            <li><a href="#timer-section" onclick="closeMenu()">Cronogramas</a></li>
+            <li><a href="#tools" onclick="closeMenu()">Herramientas</a></li>
+            <li><a href="#languages" onclick="closeMenu()">Inglés</a></li>
+            <li><a href="#payments" onclick="closeMenu()">Pagos</a></li>
+            <li><a href="#states" onclick="closeMenu()" >Aviso</a></li>
+            <li><a href="#CDI" onclick="closeMenu()">Solicitar CDI</a></li>
+            <li><a href="#footer" onclick="closeMenu()">Fundador</a></li>
+            <ll><a href="#rooms" onclick="closeMenu()">Núcleos</a></ll>
+        </ul>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <h2 style="margin-bottom: 0; padding: 0;">NATSI</h2>
+        <b style="padding: 0; margin-bottom: 2em;">Núcleo Académico Técnico de Sistemas Informáticos</b>
+        <p>Desarrollando, mejorando e incorporando en nuestras vidas, la tecnología de las herramientas de <br><strong>Microsoft Corporation</strong>&trade;</p>
+        <p>Desarrollado por:<br><strong>Angel Manuel Guevara Chavarría</strong></p>
+        <a href="#CDI" class="snd-click" style="margin-bottom: -3em; background: var(--secondary); color: var(--primary); padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: var(--transition);">Solicitar mi CDI</a>
+    </header>
+    
+    <section id="stats-bar" class="stats-bar">
+    <div class="stats-bar">
+        <div class="stat-item"><h3>10</h3><p>Herramientas Software de<br><strong>Microsoft Corporation</strong>&trade;</p></div>
+        <div class="stat-item"><h3>2</h3><p>Horas de lunes a viernes recibidas en<br><strong>Microsoft Teams</strong>&trade;</p></div>
+        <div class="stat-item"><h3>50%</h3><p>De descuento por Software a los estudiantes activos en<br><strong>NATSI</strong>&reg;</p></div>
+        <div class="stat-item"><h3>+657</h3><p>Archivos PDF y Plantillas Personalizadas por Software.</p></div>
+        <div class="stat-item"><h3>1</h3><p>Cuenta personal estudiantil de<br><strong>Microsoft Corporation</strong>&trade;<br>con acceso a todo el material de estudio.</p></div>
+        <div class="stat-item"><h3>8</h3><p>Núcleos lingüísticos de inglés <strong>australiano</strong>, basado en y para programación.</p></div>
+    </div>
+    </section>
+    
+    <section id="timer-section">
+        <h2 class="timer">Cronogramas Académicos</h2>
+    <div class="timers-section" id="timer-section">
+        <div class="timer-box">
+            <div class="timer-title">Inicio de solicitudes CDI</div>
+            <div class="timer-display" id="timer1">00d 00h 00m 00s</div>
+        </div>
+        <div class="timer-box">
+            <div class="timer-title">Cierre de solicitudes CDI</div>
+            <div class="timer-display" id="timer2">00d 00h 00m 00s</div>
+        </div>
+        <div class="timer-box">
+            <div class="timer-title">Inicio de adminsiones</div>
+            <div class="timer-display" id="timer3">00d 00h 00m 00s</div>
+        </div>
+        <div class="timer-box">
+            <div class="timer-title">Cierre de adminisiones</div>
+            <div class="timer-display" id="timer4">00d 00h 00m 00s</div>
+        </div>
+    </div>
+    </section>
+
+    <section id="tools">
+        <div class="section-header">
+            <h2>Herramientas Software</h2>
+            <p>Suite de <strong>herramientas Software</strong> interconectadas, diseñadas para digitalizar, automatizar y optimizar el flujo de trabajo individual como colaborativo. Sus arquitecturas se basan en la <strong>interoperabilidad</strong>, permitiendo que los datos fluyan sin fricciones entre los analisis, la comunicación y la documentación.</p>
+        </div>
+        <div class="main-grid">
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Project&trade;</h3>
+                <p>Software de administración de proyectos, diseñado para la gobernanza de Cronogramas, asignación de recursos a tareas, seguimiento de rutas críticas y análisis de cargas de trabajo mediante diagramas de Gantt y presupuestación avanzada.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Visio&trade;</h3>
+                <p>Software de diagramación vectorial y gráficos empresariales que permiten transformar datos complejos en representaciones visuales técnicas, como diagramas de flujo, planos de planta, mapas de procesos y arquitecturas de red.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Access&trade;</h3>
+                <p>Software de gestión de bases de datos relacionales (RDBMS) que combina el motor de base de datos <strong>Microsoft Jet</strong> con una interfaz gráfica y herramientas de desarrollo de software para crear aplicaciones de escritorio personalizadas.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Excel&trade;</h3>
+                <p>Software de cálculo y análisis de datos basada en celdas, que utiliza motores de cálculo lógico, tablas dinámicas, herramientas de modelado estadístico y lenguaje de automatización (VBA/Office Scripts).</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Word&trade;</h3>
+                <p>Software de textos avanzados orientados a la creación de documentos profesionales, que ofrece gestión de estilos, referencias bibliográficas, control de cambios y maquetación estructurada para documentos complejos.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC PowerPoint&trade;</h3>
+                <p>Software de diseño de presentaciones narrativas que utiliza un sistema de diapositivas interactivas, permitiendo la integración de multimedia, animaciones lógicas y visualización de datos para la comunicación estratégica.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Outlook&trade;</h3>
+                <p>Gestor de información personal y cliente de comunicación corporativa que integra correo electrónico, gestión de calendarios, administración de contactos y tareas bajo protocolos de seguridad empresarial.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Teams&trade;</h3>
+                <p>Software de operaciones para el trabajo en equipo (Hub) que unifica chat, videoconferencias, almacenamiento de archivos e integración de aplicaciones de terceros en un entorno de colaboración en tiempo real.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC OneNote&trade;</h3>
+                <p>Software de block de notas digital de estructura no lineal diseñado para la captura de informacion multiformato (escritura manual, audio, recortes web) organizada en secciones y páginas con capacidad de búsquedas OCR.</p>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Microsoft Office LTSC Loop&trade;</h3>
+                <p>Software de co-creacón flexible que utiliza "<strong>componentes</strong>" portátiles y sincronizados que se mueven libremente entre aplicaciones, permitiendo que el contenido se mantenga actualizado sin importar donde se visualice.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="languages">
+        <div class="section-header">
+            <h2>Programación a base de interactividad lingüística</h2>
+            <p>Aprenda inglés en nuestros núcleos académicos, para incorporarlo en su diaria programación, que implica la capacidad lingüística requerida.</p>
+        </div>
+            <div class="main-grid">
+        <div class="pro-card snd-click">
+            <h3>Nivel A1 - Iniciante</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Nivel A2 - Iniciante Intermedio</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Nivel B1 - Intermedio</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Nivel B2 - Intermedio Avanzado</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Nivel C1 - Avanzado</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Nivel C2 - Maestría</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Kindergarten - 1st Grade</h3>
+            <p>Esperando texto...</p>
+        </div>
+        <div class="pro-card snd-click">
+            <h3>Kindergarten - 2nd Grade</h3>
+            <p>Esperando texto...</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="payments" style="background: #f0f4f8;">
+        <div class="section-header">
+            <h2>Inscripciones y Mensualidades</h2>
+            <p>Conoce el monto total de pago de inscripción y mensual por <strong>herramienta software</strong> ciclo 2026.</p>
+        </div>
+        <div class="main-grid" id="carreras-container"></div>
+    </section>
+    
+    <section id="states">
+        <div class="section-header">
+                <h2>Departamentos y Municipios</h2>
+                <p>Los siguientes departamentos y municipios que no son admitidos estarán resaltados de color <span class="dont">rojo</span>, los demás son admitidos.</p>
+        </div>
+                <div class="main-grid">
+            <div class="pro-card snd-click">
+                <h3>Departamento de Guatemala</h3>
+                <li class="list">Ciudad de Guatemala</li>
+                <li class="list dont">Mixco</li>
+                <li class="list dont">Villa Nueva</li>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Departamento de Petén</h3>
+                <li class="list">Flores</li>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Departamento de Quetzaltenango</h3>
+                <li class="list">Quetzaltenango</li>
+            </div>
+            <div class="pro-card snd-click">
+                <h3>Departamento de Chiquimula</h3>
+                <li class="list dont">Chiquimula</li>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="CDI">
+        <div class="section-header">
+            <h2>Obtenga su CDI</h2>
+            <p>Complete el siguiente formulario para que podamos contactárnos contigo y poder procesar tu pago de inscripción y mensualidad para poderte compartir tu CDI.</p>
+        </div>
+<div class="contact-container">
+    <form id="contactForm" action="https://formspree.io/f/TU_ID_FORMSPREE" method="POST">
+        
+        <div class="form-row">
+            <input class="snd-click" type="text" name="Primer Nombre" id="firstName" placeholder="Primer Nombre" required>
+            <input class="snd-click" type="text" name="Primer Apellido" id="lastName" placeholder="Primer Apellido" required>
+        </div>
+
+        <div class="form-row" style="display: flex; align-items: center; gap: 5px; margin-bottom: 20px;">
+            <span style="background: #eee; padding: 10px; border-radius: 4px; font-weight: bold;">+502</span>
+            <input class="snd-click" type="text" name="Telefono" id="phone" placeholder="0000-0000" maxlength="9" required style="flex: 1;">
+        </div>
+
+        <div class="form-row" style="display: flex; align-items: center; gap: 5px; margin-bottom: 20px;">
+            <input class="snd-click" type="text" id="emailUser" placeholder="Usuario de correo" required style="flex: 2;">
+            <select class="snd-click" id="emailDomain" name="Dominio" style="flex: 1; margin-bottom: 0;">
+                <option value="@gmail.com">@gmail.com</option>
+                <option value="@outlook.com">@outlook.com</option>
+                <option value="@outlook.es">@outlook.es</option>
+                <option value="@hotmail.com">@hotmail.com</option>
+                <option value="@natsi.com">@natsi.com</option>
+                <option value="@microsoft.com">@microsoft.com</option>
+            </select>
+            <input type="hidden" name="Email_Completo" id="fullEmail">
+        </div>
+
+        <div class="form-row" style="margin-bottom: 20px;">
+            <label for="contactDate"><p style="color: white; background-color: var(--primary); font-weight: bold; padding: 1vh; margin-bottom: 0; text-align: center; border-radius: 1vh;">¿Cuándo quieres que nos comuniquemos contigo?</p></label>
+            <input type="date" id="contactDate" name="Fecha_Contacto" required>
+        </div>
+
+        <select name="Interes" style="margin-bottom: 20px;">
+            <p><option><a href="disabled-link">--Seleccione--</a></option></p>
+            <option>Microsoft Office LTSC Project&trade;</option>
+            <opcion>Microsoft Office LTSC Visio&trade;</opcion>
+            <option>Microsoft Office LTSC Access&trade;</option>
+            <option>Microsoft Office LTSC Excel&trade;</option>
+            <option>Microsoft Office LTSC Word&trade;</option>
+        </select>
+
+        <textarea name="Mensaje" rows="5" placeholder="¿Desea comentarnos algo más?" style="margin-bottom: 20px;"></textarea>
+
+        <button type="submit" class="btn-submit snd-click">Enviar Solicitud</button>
+    </form>
+</div>
+    </section>
+    
+    <div class="whatsapp-btn snd-click">
+        <a class="whatsapp-btn" href="icons8-whatsapp-48.png" target="_blank"></a>
+        <div style="text-align: center; color: var(--secondary); font-size: 0.8rem; padding-top: 5rem; font-weight: bold;">WHATSAPP</div>
+    </div>
+    
+    
+    <div class="chatbot-wrapper">
+        <div class="chat-window" id="chatWin">
+            <div class="chat-header">Asistente UniGlobal</div>
+            <div class="chat-body" id="chatBody">
+                <div style="margin-bottom:10px;">¡Hola! Soy el asistente virtual de UNIGLOBAL. ¿En qué facultad estás interesado hoy?</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chatInput" placeholder="Escribe aquí...">
+                <button onclick="sendChat()" class="snd-click" style="background:var(--secondary); border:none; padding:10px; border-radius:10px; cursor:pointer; font-weight:bold;">></button>
+            </div>
+        </div>
+        
+        <div class="chat-toggle snd-click" onclick="toggleChat()">🟡</div><div style="text-align: center; color: var(--secondary); font-weight: bold; font-size: 0.8rem;">ASISTENTE</div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div>
+                <h3 style="color: var(--white); margin-bottom: 20px;">MS-LTSC</h3>
+                <p>Desarrollado por: <strong>Angel Manuel Guevara Chavarría</strong>. Siendo parte de <strong>NATSI</strong> para la implementación de mejoramiento en excelencia en el uso de las herramientas software de <strong>Microsoft Corporation</strong>&trade;</p>
+            </div>
+            <div style="color: var(--secondary);">
+                <p>Desarrollador, Creador, Fundador y Director absoluto de <strong>NATSI</strong> y <strong>MS-LTSC</strong>:</p>
+                <p>Angel Manuel Guevara Chavarría</p>
+            </div>
+            <div>
+                <a class="links" href="#CDI">
+                <p><strong>CDI: </strong>Código Decodificador de Identificación</p></a>
+            </div>
+            <div>
+                <h4 style="color: var(--white); margin-bottom: 15px;">Enlaces Rápidos</h4>
+                <p class="links snd-click"><a href="#">Admisiones</a></p>
+                <p class="links snd-click"><a href="#">Inscripciones gratuitas</a></p>
+                <p class="links snd-click"><a href="#">CDI temporales</a></p>
+                <p class="links snd-click"><a href="#">NATSI Central</a></p>
+            </div>
+            <div>
+                <h4 style="color: var(--white); margin-bottom: 15px;">Legal</h4>
+                <p class="links snd-click"><a href="#">Políticas</a></p>
+                <p class="links snd-click"><a href="#">Privacidad</a></p>
+                <p class="links snd-click"><a href="#">Términos</a></p>
+                <p class="links snd-click"><a href="#">Condiciones</a></p>
+                </div>
+                <div>
+                    <h4 id="rooms" style="color: var(--white); margin-bottom: 15px;">Núcleos</h4>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Project&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Visio&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Access&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Excel&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Word&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC PowerPoint&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Outlook&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Teams&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC OneNote&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Microsoft Office LTSC Loop&trade;</a></p>
+                    <p class="links snd-click"><a href="#">Inglés para programadores</a></p>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #333; margin-bottom: 20px;">
+        <p style="text-align: center; font-size: 0.8rem;">&copy; Microsoft Software & Long Terms Service Channel <br><i>MS-LTSC</i></p>
+        <p style="text-align: center; font-size: 0.8rem;">&reg; Núcleo Académico Técnico de Sistemas Informáticas <br><i>-NATSI-</i></p>
+        <p style="text-align: center; font-size: 0.8rem;">Desarrollado por: <strong>Angel Manuel Guevara Chavarría</strong>&reg;</p>
+        <p style="text-align: center; font-size: 0.8rem;">&copy; Todos los Derechos Reservados 2021 - 2026</p>
+        </hr>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
